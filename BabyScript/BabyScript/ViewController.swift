@@ -24,6 +24,27 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
+    
+    @IBAction func showWordCountWindow(_ sender: AnyObject) {
+        
+        // 1
+        let storyboard = NSStoryboard(name: NSStoryboard.Name(rawValue: "Main"), bundle: nil)
+        let wordCountWindowController = storyboard.instantiateController(withIdentifier: NSStoryboard.SceneIdentifier(rawValue: "Word Count Window Controller")) as! NSWindowController
+        
+        if let wordCountWindow = wordCountWindowController.window, let textStorage = text.textStorage {
+            
+            // 2
+            let wordCountViewController = wordCountWindow.contentViewController as! WordCountViewController
+            wordCountViewController.wordCount = textStorage.words.count
+            wordCountViewController.paragraphCount = textStorage.paragraphs.count
+            
+            // 3
+            let application = NSApplication.shared
+            application.runModal(for: wordCountWindow)
+            // 4
+            wordCountWindow.close()
+        }
+    }
 
 
 }
