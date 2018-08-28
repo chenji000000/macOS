@@ -60,21 +60,21 @@
                                     </items>
                                 </menu>
                             </menuItem>
-                            <menuItem title="Timer" enabled="NO" id="A7T-aR-Z4K" userLabel="Timer">
+                            <menuItem title="Timer" id="A7T-aR-Z4K" userLabel="Timer">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Timer" id="Fc0-CJ-Iwn">
+                                <menu key="submenu" title="Timer" autoenablesItems="NO" id="Fc0-CJ-Iwn">
                                     <items>
-                                        <menuItem title="Start" enabled="NO" keyEquivalent="s" id="ED1-Qf-PV3">
+                                        <menuItem title="Start" keyEquivalent="s" id="ED1-Qf-PV3">
                                             <connections>
                                                 <action selector="startTimerMenuItemSelected:" target="Ady-hI-5gd" id="zHd-GH-vEb"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Stop" enabled="NO" keyEquivalent="x" id="cO6-Kr-cCh">
+                                        <menuItem title="Stop" keyEquivalent="x" id="cO6-Kr-cCh">
                                             <connections>
-                                                <action selector="startTimerMenuItemSelected:" target="Ady-hI-5gd" id="ye7-Oe-fed"/>
+                                                <action selector="stopTimerMenuItemSelected:" target="Ady-hI-5gd" id="btU-dF-BWV"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Reset" enabled="NO" keyEquivalent="r" id="60b-n5-iH3">
+                                        <menuItem title="Reset" keyEquivalent="r" id="60b-n5-iH3">
                                             <connections>
                                                 <action selector="resetTimerMenuItemSelected:" target="Ady-hI-5gd" id="DgX-Z8-xLv"/>
                                             </connections>
@@ -157,7 +157,7 @@
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="250"/>
+            <point key="canvasLocation" x="96" y="403"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="7DR-xt-uaq">
