@@ -9,3 +9,5 @@
 EggTimer [1](https://www.raywenderlich.com/730-macos-development-for-beginners-part-2) [2](https://www.raywenderlich.com/729-macos-development-for-beginners-part-3)
 
 [Panagram](https://www.raywenderlich.com/511-command-line-programs-on-macos-tutorial)
+
+[Quotes](https://www.raywenderlich.com/450-menus-and-popovers-in-menu-bar-apps-for-macos)
