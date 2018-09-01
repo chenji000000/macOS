@@ -17,3 +17,6 @@ EggTimer [1](https://www.raywenderlich.com/730-macos-development-for-beginners-p
 Note: For this tutorial, the name of the playground must be Files and it must be located on your Desktop. 
 
 [File Spy](https://www.raywenderlich.com/666-filemanager-class-tutorial-for-macos-getting-started-with-the-file-system)
+
+
+MadLibs [1](https://www.raywenderlich.com/759-macos-controls-tutorial-part-1-2) [2](https://www.raywenderlich.com/760-macos-controls-tutorial-part-2-2)
