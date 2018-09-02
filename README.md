@@ -20,3 +20,6 @@ Note: For this tutorial, the name of the playground must be Files and it must be
 
 
 MadLibs [1](https://www.raywenderlich.com/759-macos-controls-tutorial-part-1-2) [2](https://www.raywenderlich.com/760-macos-controls-tutorial-part-2-2)
+
+[FileViewer](https://www.raywenderlich.com/830-macos-nstableview-tutorial)
+
