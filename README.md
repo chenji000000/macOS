@@ -26,3 +26,6 @@ MadLibs [1](https://www.raywenderlich.com/759-macos-controls-tutorial-part-1-2) 
 [Book Shop](https://www.raywenderlich.com/1206-os-x-stack-views-with-nsstackview)
 
 [SlidesMagic](https://www.raywenderlich.com/1246-collection-views-in-os-x-tutorial)
+
+[DiskInfo](https://www.raywenderlich.com/1101-core-graphics-on-macos-tutorial)
+
