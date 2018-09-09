@@ -29,4 +29,4 @@ MadLibs [1](https://www.raywenderlich.com/759-macos-controls-tutorial-part-1-2) 
 
 [DiskInfo](https://www.raywenderlich.com/1101-core-graphics-on-macos-tutorial)
 
-High Roller [1](https://www.raywenderlich.com/972-unit-testing-on-macos-part-1-2)
+High Roller [1](https://www.raywenderlich.com/972-unit-testing-on-macos-part-1-2) [2](https://www.raywenderlich.com/971-unit-testing-on-macos-part-2-2)
