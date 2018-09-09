@@ -44,7 +44,34 @@ class High_RollerUITests: XCTestCase {
 
   func testExample() {
     // Use recording to get started writing UI tests.
+    
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    let highRollerWindow = XCUIApplication().windows["High Roller"]
+    let incrementArrow = highRollerWindow.steppers.children(matching: .incrementArrow).element
+    incrementArrow.click()
+    incrementArrow.click()
+    
+    let textField = highRollerWindow.children(matching: .textField).element
+    textField.click()
+    textField.typeText("6\r")
+    highRollerWindow.children(matching: .popUpButton).element.click()
+    highRollerWindow/*@START_MENU_TOKEN@*/.menuItems["12"]/*[[".popUpButtons",".menus.menuItems[\"12\"]",".menuItems[\"12\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/.click()
+    highRollerWindow.buttons["Roll"].click()
+    
+  }
+  
+  func testIncreasingNumberOfDice() {
+    let highRollerWindow = XCUIApplication().windows["High Roller"]
+    
+    let incrementArrow = highRollerWindow.steppers.children(matching: .incrementArrow).element
+    incrementArrow.click()
+    incrementArrow.click()
+    
+    let textField = highRollerWindow.children(matching: .textField).element
+    let textFieldValue = textField.value as? String
+    
+        XCTAssertEqual(textFieldValue, "4")
   }
 
 }

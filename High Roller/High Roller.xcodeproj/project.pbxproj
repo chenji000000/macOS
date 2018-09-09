@@ -15,6 +15,9 @@
 		26AE23921D48731000E21F46 /* Roll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26AE23911D48731000E21F46 /* Roll.swift */; };
 		26E193261D4B07C700524E79 /* ViewControllerDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E193251D4B07C700524E79 /* ViewControllerDisplay.swift */; };
 		26E881271D5D895100D57EAD /* High_RollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E881261D5D895100D57EAD /* High_RollerUITests.swift */; };
+		F45044FB21434B14005DD21D /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45044FA21434B14005DD21D /* ViewControllerTests.swift */; };
+		F45044FD2144DE6E005DD21D /* WebSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45044FC2144DE6E005DD21D /* WebSourceTests.swift */; };
+		F45044FF21455BA6005DD21D /* PerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45044FE21455BA6005DD21D /* PerformanceTests.swift */; };
 		F45FD2CE2141793400B814C4 /* DiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45FD2CD2141793400B814C4 /* DiceTests.swift */; };
 		F45FD2D021417D3900B814C4 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45FD2CF21417D3900B814C4 /* Dice.swift */; };
 		F45FD2D22142158300B814C4 /* RollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45FD2D12142158300B814C4 /* RollTests.swift */; };
@@ -52,6 +55,9 @@
 		26AE23911D48731000E21F46 /* Roll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Roll.swift; sourceTree = "<group>"; };
 		26E193251D4B07C700524E79 /* ViewControllerDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDisplay.swift; sourceTree = "<group>"; };
 		26E881261D5D895100D57EAD /* High_RollerUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = High_RollerUITests.swift; sourceTree = "<group>"; };
+		F45044FA21434B14005DD21D /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		F45044FC2144DE6E005DD21D /* WebSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSourceTests.swift; sourceTree = "<group>"; };
+		F45044FE21455BA6005DD21D /* PerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceTests.swift; sourceTree = "<group>"; };
 		F45FD2CD2141793400B814C4 /* DiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceTests.swift; sourceTree = "<group>"; };
 		F45FD2CF21417D3900B814C4 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
 		F45FD2D12142158300B814C4 /* RollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollTests.swift; sourceTree = "<group>"; };
@@ -124,6 +130,9 @@
 				268F3AD31D4594EF0080CAD0 /* Info.plist */,
 				F45FD2CD2141793400B814C4 /* DiceTests.swift */,
 				F45FD2D12142158300B814C4 /* RollTests.swift */,
+				F45044FA21434B14005DD21D /* ViewControllerTests.swift */,
+				F45044FC2144DE6E005DD21D /* WebSourceTests.swift */,
+				F45044FE21455BA6005DD21D /* PerformanceTests.swift */,
 			);
 			path = "High RollerTests";
 			sourceTree = "<group>";
@@ -301,7 +310,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45044FB21434B14005DD21D /* ViewControllerTests.swift in Sources */,
+				F45044FD2144DE6E005DD21D /* WebSourceTests.swift in Sources */,
 				F45FD2D22142158300B814C4 /* RollTests.swift in Sources */,
+				F45044FF21455BA6005DD21D /* PerformanceTests.swift in Sources */,
 				F45FD2CE2141793400B814C4 /* DiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

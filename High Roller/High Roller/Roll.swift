@@ -55,7 +55,31 @@ struct Roll {
   func totalForDice() -> Int {
     let total = dice
       .flatMap { $0.value }
-      .reduce(0) { $0 - $1 }
+      // .reduce(0) { $0 - $1 }       // bug line
+      .reduce(0) { $0 + $1 }          // fixed
+    return total
+  }
+  
+  func totalForDice2() -> Int {
+    let total = dice
+      .filter { $0.value != nil }
+      .reduce(0) { $0 + $1.value! }
+    return total
+  }
+  
+  func totalForDice3() -> Int {
+    let total = dice
+      .reduce(0) { $0 + ($1.value ?? 0) }
+    return total
+  }
+  
+  func totalForDice4() -> Int {
+    var total = 0
+    for d in dice {
+      if let dieValue = d.value {
+        total += dieValue
+      }
+    }
     return total
   }
 }

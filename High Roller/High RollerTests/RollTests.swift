@@ -7,29 +7,34 @@
 //
 
 import XCTest
+@testable import High_Roller
 
 class RollTests: XCTestCase {
 
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+  var roll: Roll!
+  
+  override func setUp() {
+    super.setUp()
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
+    roll = Roll()
+    roll.changeNumberOfDice(newDiceCount: 5)
+  }
+  
+  func testCreatingRollOfDice() {
+    XCTAssertNotNil(roll)
+    XCTAssertEqual(roll.dice.count, 5)
+  }
+  
+  func testTotalForDiceBeforeRolling_ShouldBeZero() {
+    let total = roll.totalForDice()
+    XCTAssertEqual(total, 0)
+  }
+  
+  func testTotalForDiceAfterRolling_ShouldBeBetween5And30() {
+    roll.rollAll()
+    let total = roll.totalForDice()
+    XCTAssertGreaterThanOrEqual(total, 5)
+    XCTAssertLessThanOrEqual(total, 30)
+  }
 
 }
