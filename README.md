@@ -1,5 +1,11 @@
 # macOS
 
+[Pipeline](https://juejin.im/post/5b9dbd76e51d450e877f3780)
+
+GPU 是一个特殊的硬件，它可以非常快速地处理图像，视频和海量的数据。这被称作throughput（吞吐量）。吞吐量是指在单位时间内处理的数据量。
+
+CPU 则无法非常快速处理大量数据，但它可以非常快的处理很多序列任务（一个接一个的）。处理一个任务所需的时间叫做latency(延迟）
+
 
 [BabyScript](https://www.raywenderlich.com/613-windows-and-windowcontroller-tutorial-for-macos)
 
